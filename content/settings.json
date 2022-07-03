@@ -1,13 +1,13 @@
 {
   "siteMetadata": {
     "language": "en",
-    "siteUrl": "https://gatsby-starter-portfolio-minimal-theme.netlify.app/",
-    "title": "Gatsby Starter for Portfolio Minimal",
+    "siteUrl": "https://abdoulkadersoumahoro.gtsb.io/",
+    "title": "AKS",
     "titleTemplate": "%s · Portfolio Minimal",
-    "description": "A Gatsby Starter Project to easily get started with Portfolio Minimal theme.",
-    "author": "Konstantin Münster",
-    "avatar": "../content/images/gatsby.png",
-    "bio": "This biography will be used in the footer area of an article and can contain some more details about the author.",
+    "description": "A site containaing projects and articles about different technlogies used in the software engineering world",
+    "author": "Abdoul Kader Soumahoro",
+    "avatar": "../content/images/abdoul-avatar.png",
+    "bio": "",
     "social": {
       "github": "https://github.com/TheRedeemed",
       "linkedin": "https://www.linkedin.com/in/abdoul-kader-soumahoro-616b7740/",
@@ -15,7 +15,7 @@
     }
   },
   "siteConfiguration": {
-    "logo": { "text": "Abdoul Kader Soumahoro" },
+    "logo": { "text": "AKS" },
     "navigation": {
       "header": [
         { "label": "About", "url": "/#about" },

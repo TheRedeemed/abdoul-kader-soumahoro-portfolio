@@ -3,10 +3,10 @@ module.exports = {
     {
       resolve: "gatsby-theme-portfolio-minimal",
       options: {
-        siteUrl: "https://gatsby-starter-portfolio-minimal-theme.netlify.app/", // Used for sitemap generation
+        siteUrl: "https://abdoulkadersoumahoro.gtsb.io/", // Used for sitemap generation
         manifestSettings: {
           favicon: "./content/images/aks-favicon-32x32.png", // Path is relative to the root
-          siteName: "Abdoul Kader Soumahoro", // Used in manifest.json
+          siteName: "AKS", // Used in manifest.json
           shortName: "AKS", // Used in manifest.json
           startUrl: "/", // Used in manifest.json
           backgroundColor: "#FFFFFF", // Used in manifest.json
