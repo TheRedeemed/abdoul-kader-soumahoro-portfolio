@@ -1,14 +1,18 @@
 ---
-imageSrc: "../../images/charles-deluvio-DgoyKNgPiFQ-unsplash.jpg"
-imageAlt: "About Gatsby Theme Portfolio Minimal"
+imageSrc: "../../images/abdoul.jpg"
+imageAlt: "About Me"
 ---
 
-Portfolio Minimal is a Gatsby Theme that creates outstanding one-pages portfolio within minutes!
+I am fullstack software engineer with a few years of experience building applications both on front end and the back end.
 
-It has predefined sections for your bio, skills, projects, and contact details. If you are a writer on Medium, you can integrate your latest articles in a distinct section as well. While building the theme, I tried to keep the setup as simple as possible while keeping everything configurable if you like to.
+On the front end, I have experience building web portals with Javascript libraries like Angular and React. 
 
-Using theme composition, you can easily customize the CSS theme to your own preferences - e.g. change colors, fonts, etc.
+On the back end, I built a few microservices mainly using Java (a few in groovy) in the spring framework.  
+For the most part the service I built interacted with Oracle Databases. 
 
-Last but not least, it has some cool features you can opt-in to: Dark Mode, Splash Screen, Cookie Banner, and more to find out :)
+Long gone are the days of hosting applications in a physical or virtual server. 
+As a result, my microservices are built for the cloud. This allowed me to gain CI/CD experience 
+along with some Docker and Kubernetes experience as well.
 
-Photo by <a href="https://unsplash.com/@charlesdeluvio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="nofollow noopener noreferrer" aria-label="External Link"><u>Charles Deluvio</u></a> on Unsplash
+What I enjoy the most, is thinking through System design in order to build efficient and scalable applications.
+

@@ -1,59 +1,80 @@
 {
   "interests": [
     {
-      "label": "Quick and Easy Setup",
+      "label": "Java",
       "image": {
-        "src": "../../images/joystick.png",
-        "alt": ""
+        "src": "../../images/java-logo.png",
+        "alt": "Java Logo"
       }
     },
     {
-      "label": "Content via Markdown",
+      "label": "Spring Framework",
       "image": {
-        "src": "../../images/notebook.png",
-        "alt": ""
+        "src": "../../images/spring-logo.png",
+        "alt": "Spring Logo"
       }
     },
     {
-      "label": "Responsive Design",
+      "label": "Oracle",
       "image": {
-        "src": "../../images/nail-polish.png",
-        "alt": ""
+        "src": "../../images/oracle-logo.png",
+        "alt": "Oracle Logo"
       }
     },
     {
-      "label": "Medium Integration",
+      "label": "SQL",
       "image": {
-        "src": "../../images/medium.png",
-        "alt": ""
+        "src": "../../images/sql-logo.png",
+        "alt": "SQL Logo"
       }
     },
     {
-      "label": "Animations",
+      "label": "Javascript (ES6)",
       "image": {
-        "src": "../../images/gem-stone.png",
-        "alt": ""
+        "src": "../../images/js.png",
+        "alt": "Javascript Logo"
       }
     },
     {
-      "label": "PWA (Offline Support)",
+      "label": "React",
       "image": {
-        "src": "../../images/mobile-phone.png",
-        "alt": ""
+        "src": "../../images/react-logo.png",
+        "alt": "React Logo"
       }
     },
     {
-      "label": "Modern Tech-Stack",
+      "label": "Angular",
       "image": {
-        "src": "../../images/gatsby.png",
-        "alt": ""
+        "src": "../../images/angular-logo.png",
+        "alt": "Angular Logo"
       }
     },
     {
-      "label": "Blazing Fast",
+      "label": "HTML5",
       "image": {
-        "src": "../../images/high-voltage.png",
-        "alt": ""
+        "src": "../../images/html5-logo.png",
+        "alt": "HTML 5 Logo"
+      }
+    },
+    {
+      "label": "CSS3",
+      "image": {
+        "src": "../../images/css-logo.png",
+        "alt": "CSS 3 Logo"
+      }
+    },
+    {
+      "label": "Docker",
+      "image": {
+        "src": "../../images/docker-icon.png",
+        "alt": "Docker Logo"
+      }
+    },
+    {
+      "label": "Kubernetes",
+      "image": {
+        "src": "../../images/kubernetes-logo.png",
+        "alt": "Kubernetes Logo"
       }
     }
   ],
