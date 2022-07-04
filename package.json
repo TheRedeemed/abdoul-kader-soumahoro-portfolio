@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-portfolio-minimal-theme",
+  "name": "AKS",
   "version": "1.0.0",
-  "description": "A Gatsby Starter Project to easily get started with the Portfolio Minimal Theme.",
+  "description": "A site containaing projects and articles about different technlogies used in the software engineering world.",
   "scripts": {
     "clean": "gatsby clean",
     "develop": "gatsby develop",
