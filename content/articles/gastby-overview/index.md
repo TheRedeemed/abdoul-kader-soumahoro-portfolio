@@ -1,5 +1,5 @@
 ---
-title: "This is article provides a high level description of Gatsby"
+title: "Gatsby high level description"
 description: "This is article provides a high level description of Gatsby. It contains information about the necessary knowledge and tools needed to build a Gatsby site. It also provides some information on React components and and also on plugins used in a Gatsby site."
 date: "2022-07-02"
 banner:

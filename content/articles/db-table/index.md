@@ -1,5 +1,5 @@
 ---
-title: "Database, table and data type primer"
+title: "Database, table and data type"
 description: "This article is a primer on databases and tables and how to create them. It also contains information about data types."
 date: "2022-08-02"
 banner:
@@ -8,7 +8,6 @@ banner:
   caption: 'Photo by <u><a href="https://unsplash.com/photos/Q9y3LRuuxmg">Maksym Kaharlytskyi</a></u>'
 categories:
   - "Database"
-  - "Tutorial"
 keywords:
   - "Database"
   - "Table"
@@ -22,9 +21,9 @@ keywords:
 Whether you purchased something online, performed an online search, booked a plane ticket or a hotel room, you have interacted with a database.
 
 A database is used to store information. 
-**It is a container that holds tables and other sql structures related to those tables.**
+**It is a container that holds tables and other SQL structures related to those tables.**
 
-**A table in a database is used to store information of the same type.** 
+**A table in a database is used to store information of the same type (related).** 
 It contains **columns** and **rows**. 
 A column could be best described as a category for your data and a row the collection of these categories for each record.
 
@@ -75,30 +74,34 @@ CREATE TABLE my_friends (
 	email VARCHAR(200) NOT NULL,
 	phone_number VARCHAR(50) NOT NULL,
 	profession VARCHAR(50) NOT NULL,
-	status VACHAR(20) NOT NULL,
+	status VARCHAR(20) NOT NULL,
 	location VARCHAR(50) NOT NULL,
 	interest VARCHAR(200) NOT NULL,
-	seeking VARCHAR(200) NOT NULL,
+	seeking VARCHAR(200) NOT NULL
 );
 ```
 
 ## SQl Data Types
 
-While creating our table, in addition to the column name, we specified a field type for each field. The fields in the *MyFriends* table are of type *VARCHAR* and *DATE*. However these are not the only data type available. Below is a list and description of data type:
+While creating our table, in addition to the column name, we specified a field type for each field. The fields in the *MyFriends* table are of type *VARCHAR* and *DATE*. However these are not the only data types available. 
 
-**VARCHAR:** Used for Alphanumeric characters. The field has a variable length. Only the size of the given entry is used. <br><br>
+Below is a list and description of data types in a Database:
+
+**VARCHAR:** Used for Alphanumeric characters. The field has a variable length. Only the size of the given entry is used.
+
 For example, saving "Test" in a VARCHAR(100) field only uses space for 4 characters.
 
 - Min Size: 1
 - Max Size: 4000
 
-**CHAR:** Used for Alphanumeric characters. The field has a fixed length. The size of field is used regardless of the given entry <br><br>
+**CHAR:** Used for Alphanumeric characters. The field has a fixed length. The size of field is used regardless of the given entry.
+
 For example, saving "Test" in a CHAR(100) field will use space for 100 characters even though "test" is only 4 characters.
 
 - Min Size: 1
 - Max Size: 2000
 
-**NUMBER(p,s):** Used for numeric data. p is for precision (number of decimal digit) and s for scale (number of digit to the right decimal point)
+**NUMBER(p,s):** Used for numeric data. **p** is for precision (number of decimal digit) and **s** for scale (number of digit to the right decimal point)
 
 - Integer
 - Decimals
@@ -112,9 +115,9 @@ For example, saving "Test" in a CHAR(100) field will use space for 100 character
 - DateTime
 - Timestamp
 
-**CLOB:** Character Large Object. Used o store variable length character data. The max size for this type is 4GB 
+**CLOB:** It stands for **Character Large Object**. It is used to store variable length character data. The max size for this type is 4GB 
 
-**BLOB:** Binary Large object. With a max size of 4GB, it is used for:
+**BLOB:** It stands for **Binary Large object** and has a max size of 4GB. It is used for:
 
 - File
 - Image
@@ -140,6 +143,7 @@ The SQL command to create a database is:
 CREATE TABLE database_name;
 ```
 
+<br>
 
 We also learned that a table is an object in a database that contains columns (or fields) and rows (or instance of each element).
 
