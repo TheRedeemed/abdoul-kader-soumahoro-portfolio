@@ -41,8 +41,6 @@ Containers have the following benefits:
 - Self contained - each container can run their own version of software and libraries
 - Multiple containers can run on the same host
 
-![Container VS Virtual Machines](../../images/containers-vs-vms.png "Container vs Virtual machines")
-
 # Docker
 
 Docker is a software used to create containers. A container is normally used to run a single process or a small group of processes to provide a service.
